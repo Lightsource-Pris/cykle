@@ -1,0 +1,13 @@
+.main {
+  background: var(--white);
+  text-align: center;
+  padding: 68px 0 117px 0;
+}
+.main p {
+  color: var(--lightestgrey);
+  font-size: 24px;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  font-family: 'Bebas Neue', cursive;
+}

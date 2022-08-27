@@ -1,0 +1,25 @@
+.main {
+  display: inline-block;
+  position: relative;
+}
+.text {
+  position: relative;
+  color: var(--white);
+  display: inline-block;
+  z-index: 1;
+}
+.line {
+  position: absolute;
+  background: var(--grey);
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  z-index: -1;
+  opacity: 0.8;
+}
+@media screen and (max-width: 500px) {
+ .line{
+  display: none;
+ }
+}

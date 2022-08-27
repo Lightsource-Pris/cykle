@@ -1,0 +1,25 @@
+.label {
+  position: relative;
+}
+.label span {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  color: red;
+  font-size: 13px;
+  display: none;
+}
+input:invalid[error="true"]{
+  border: 1px solid red;
+}
+
+input:invalid[error="true"] ~ span {
+  display: block;
+} 
+
+@media screen and (max-width: 600px) {
+  .label span {
+    font-size: 10px;
+    bottom: -35px;
+  }
+}
