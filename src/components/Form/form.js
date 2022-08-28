@@ -31,7 +31,7 @@ const Form = () => {
     e.preventDefault();
     try {
       setLoading(true);
-      const res = await registerUser(payload);
+      //const res = await registerUser(payload);
       navigate("/submitted");
     } catch (error) {
       setLoading(false);
