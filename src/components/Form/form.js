@@ -5,7 +5,7 @@ import Input from "../UI/Input/input";
 import classes from "./form.module.css";
 import { useNavigate } from "react-router";
 import { inputArray, checkboxArray } from "../../constants";
-import { registerUser } from "../../service/sendmail";
+//import { registerUser } from "../../service/sendmail";
 import loaderImg from "../../assets/Images/load.svg";
 
 const Form = () => {
