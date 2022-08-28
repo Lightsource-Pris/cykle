@@ -1,8 +1,8 @@
 {
-  "homepage": "http://lightsource-pris.github.io/cykle",
-  "name": "cykle",
+  "homepage": "",
+  "name": "loby",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
